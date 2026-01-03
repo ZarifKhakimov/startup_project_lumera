@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dynamic_bg"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Products"
+            android:textColor="@color/text_primary"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageButton
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:contentDescription="@null"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/lotus" />
+
+
+        <ImageButton
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:contentDescription="@null"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/raindrop" />
+
+        <ImageButton
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:contentDescription="@null"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/bottle_cream" />
+
+        <ImageButton
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:contentDescription="@null"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/sun" />
+
+        <ImageButton
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:contentDescription="@null"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/mask" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="5dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Cleanser"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="Serum"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="Moisturizer"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="Sunscreen"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="Masks"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Moisturizers"
+            android:textColor="@color/text_primary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerProducts"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

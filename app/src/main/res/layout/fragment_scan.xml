@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Face Image -->
+    <ImageView
+        android:id="@+id/imgFace"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/samle_face"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Title ON image -->
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="341dp"
+        android:text="AI Skin Analysis"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imgFace"
+        app:layout_constraintEnd_toEndOf="@+id/imgFace"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgFace" />
+
+    <!-- Subtitle ON image -->
+    <TextView
+        android:id="@+id/txtSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take a clear selfie in good lighting"
+        android:textSize="14sp"
+        android:textColor="#444444"
+        app:layout_constraintTop_toBottomOf="@id/txtTitle"
+        app:layout_constraintStart_toStartOf="@id/txtTitle"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Bottom Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/scanCard"
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnStartScan"
+                android:layout_width="220dp"
+                android:layout_height="56dp"
+                android:text="START SCAN"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/bg_gradient_button"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

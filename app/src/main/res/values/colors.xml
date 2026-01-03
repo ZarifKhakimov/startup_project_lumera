@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mint">#9EE7D8</color>
+    <color name="red">#FF4C4C</color>
+    <color name="primary_mint">#4FD1C5</color>
+    <color name="text_gray">#9CA3AF</color>
+    <color name="primary_mint_dark">#2FB6AA</color>
+
+    <!-- Backgrounds -->
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_light">#F9FAFB</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="text_primary">#111827</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_hint">#9CA3AF</color>
+
+    <!-- Navigation -->
+    <color name="nav_active">#4FD1C5</color>
+    <color name="nav_inactive">#9CA3AF</color>
+
+    <!-- Buttons -->
+    <color name="button_primary">#4FD1C5</color>
+    <color name="button_secondary">#E5F8F6</color>
+
+    <!-- Status -->
+    <color name="success">#22C55E</color>
+    <color name="warning">#F59E0B</color>
+    <color name="error">#EF4444</color>
+
+
+</resources>
+
