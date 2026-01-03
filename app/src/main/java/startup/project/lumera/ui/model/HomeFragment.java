@@ -19,7 +19,6 @@ import startup.project.lumera.ui.adapter.ProdMainAdapter;
 public class HomeFragment extends Fragment {
 
     public HomeFragment() {
-        // Required empty public constructor
     }
 
     @Override

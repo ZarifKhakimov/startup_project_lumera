@@ -24,7 +24,6 @@ public class ScanFragment extends Fragment {
         Button startScanBtn = view.findViewById(R.id.btnStartScan);
 
         startScanBtn.setOnClickListener(v -> {
-            // TODO: Start scan logic here
             Toast.makeText(requireContext(), "Scanning...", Toast.LENGTH_SHORT).show();
         });
     }

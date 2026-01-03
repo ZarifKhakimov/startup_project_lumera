@@ -32,7 +32,6 @@
                 android:text="AI Skin &amp; Beauty Advisor"
                 android:textColor="@color/black" />
 
-            <!-- Search -->
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -45,7 +44,6 @@
         </LinearLayout>
 
 
-        <!-- AI Skin Scanner -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -69,7 +67,6 @@
                     android:orientation="horizontal"
                     android:padding="16dp">
 
-                    <!-- Icon -->
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
@@ -77,7 +74,6 @@
                         android:padding="8dp"
                         android:src="@drawable/ic_scan" />
 
-                    <!-- Texts -->
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -107,7 +103,6 @@
         </LinearLayout>
 
 
-        <!-- Categories -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -345,10 +340,9 @@
                 android:id="@+id/rvFeaturedProducts"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="8dp"/>
+                android:padding="8dp" />
 
         </LinearLayout>
-        <!-- Featured -->
 
     </LinearLayout>
 </ScrollView>

@@ -10,17 +10,15 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- Title -->
         <TextView
-            android:textColor="@color/text_primary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:text="Account"
+            android:textColor="@color/text_primary"
             android:textSize="24sp"
             android:textStyle="bold" />
 
-        <!-- Profile Card -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -43,10 +41,10 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:textColor="@color/text_primary"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Jasmine Lee"
+                    android:textColor="@color/text_primary"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -67,7 +65,6 @@
             </LinearLayout>
         </LinearLayout>
 
-        <!-- Upgrade Card -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -88,10 +85,10 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:textColor="@color/text_primary"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Upgrade to Premium"
+                    android:textColor="@color/text_primary"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -104,25 +101,23 @@
             </LinearLayout>
         </LinearLayout>
 
-        <!-- Menu Items -->
         <include
             android:id="@+id/optionHistory"
-            layout="@layout/item_account_option"/>
+            layout="@layout/item_account_option" />
 
         <include
             android:id="@+id/optionSaved"
-            layout="@layout/item_account_option"/>
+            layout="@layout/item_account_option" />
 
         <include
             android:id="@+id/optionSubscription"
-            layout="@layout/item_account_option"/>
+            layout="@layout/item_account_option" />
 
         <include
             android:id="@+id/optionLanguage"
-            layout="@layout/item_account_option"/>
+            layout="@layout/item_account_option" />
 
 
-        <!-- Logout Button -->
         <Button
             android:id="@+id/btnLogout"
             android:layout_width="match_parent"

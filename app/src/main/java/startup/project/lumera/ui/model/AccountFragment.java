@@ -45,7 +45,6 @@ public class AccountFragment extends Fragment {
         ((TextView) history.findViewById(R.id.optionSubtitle))
                 .setText("5 scans this month");
 
-// Option: Saved Products
         View saved = view.findViewById(R.id.optionSaved);
         ((ImageView) saved.findViewById(R.id.optionIcon))
                 .setImageResource(R.drawable.ic_heart);
@@ -54,7 +53,6 @@ public class AccountFragment extends Fragment {
         ((TextView) saved.findViewById(R.id.optionSubtitle))
                 .setText("12 items");
 
-// Option: Subscription
         View subscription = view.findViewById(R.id.optionSubscription);
         ((ImageView) subscription.findViewById(R.id.optionIcon))
                 .setImageResource(R.drawable.ic_subscription);
@@ -63,7 +61,6 @@ public class AccountFragment extends Fragment {
         ((TextView) subscription.findViewById(R.id.optionSubtitle))
                 .setText("Free Plan");
 
-// Option: Language
         View language = view.findViewById(R.id.optionLanguage);
         ((ImageView) language.findViewById(R.id.optionIcon))
                 .setImageResource(R.drawable.ic_language);
